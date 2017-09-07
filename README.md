@@ -1,5 +1,7 @@
 # Plex Web Remote
 
+<img src="https://raw.githubusercontent.com/maximelafarie/plex-web-remote/master/dist/img/icon.png" width="100">
+
 Chrome Extension to remotely control Plex Web App wherever you are.
 
 ## How it works
