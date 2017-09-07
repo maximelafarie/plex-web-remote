@@ -1,59 +1,50 @@
-# Chrome Extension TypeScript Starter
+# Plex Web Remote
 
-Chrome Extension, TypeScript and Visual Studio Code
+Chrome Extension to remotely control Plex Web App wherever you are.
 
-## Prerequisites
+## How it works
+
+PWR (Plex Web Remote) works with the keyboard media buttons. You simply have to load the extension in Chrome
+and let the magic operate.
+
+The extension looks for a tab that contains `plex.tv` or the port `3200` (default Plex port, in case your accessing 
+Plex Web App through your server IP address). Feel free to change these values to fit your needs (e.g. if you change the
+default Plex port or reverse address or custom domain).
+
+The extension works when Chrome browser is open and you can use it even if the browser is not focused (e.g. if you're
+coding, if you're playing and so on).
+
+
+## Contribute
+### Prerequisites
 
 * [node + npm](https://nodejs.org/) (Current Version)
 
-## Option
-
-* [Visual Studio Code](https://code.visualstudio.com/)
-
-## Includes the following
+### Includes the following
 
 * TypeScript
 * Webpack
-* Moment.js
 * jQuery
-* Example Code
-    * Chrome Storage
-    * Options Version 2
-    * content script
-    * count up badge number
-    * background
 
-## Project Structure
+### Project Structure
 
 * src: TypeScript source files
 * dist: Chrome Extension directory
 * dist/js: Generated JavaScript files
 
-## Setup
+### Setup
 
 ```
 npm install
 ```
 
-## Import as Visual Studio Code project
-
-...
-
-## Build by watch mode
-
-### terminal
+### Build by watch mode
 
 ```
 npm run build
 ```
 
-### Visual Studio Code
-
-Run watch mode.
-
-type `Ctrl + Shift + B`
-
-## Load extension to chrome
+### Load extension to Chrome
 
 Load `dist` directory
 
