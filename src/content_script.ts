@@ -7,12 +7,12 @@ chrome.runtime.onMessage.addListener(function(msg, sender, sendResponse) {
         }
     }
 
-    if (msg.playingStatus == "playing") {
+    if (msg.playingStatus == 'playing') {
         setBadge(true);
     } else {
         setBadge(false);
     }
-        sendResponse({farewell: "goodbye"});
+        sendResponse({farewell: 'goodbye'});
 
     if (msg.text === 'report_back') {
         // Call the specified callback, passing
